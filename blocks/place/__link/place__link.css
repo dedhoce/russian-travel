@@ -1,0 +1,14 @@
+.place__link {
+  max-width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;  
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}

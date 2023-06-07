@@ -1,0 +1,21 @@
+.place__website {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 456px;
+  min-height: 46px;
+  justify-content: end;
+}
+
+.place__website:hover .place__link {
+  opacity: 0.8;
+}
+@media screen and (max-width: 320px) {
+  .place__website {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 16px;
+  }
+}
