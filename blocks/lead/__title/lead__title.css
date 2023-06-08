@@ -1,8 +1,7 @@
 .lead__title {
-  margin: 0 auto;
-  max-height: 200px;
+  margin: 0 auto;  
   max-width: 720px;
-  font-family: "Inter";
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 96px;
   font-weight: 900;
   line-height: 100px;
@@ -10,8 +9,7 @@
   margin-bottom: 32px;
 }
 @media screen and (max-width: 320px) {
-  .lead__title {
-    max-height: 88px;
+  .lead__title {    
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;

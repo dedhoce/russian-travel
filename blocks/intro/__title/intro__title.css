@@ -1,11 +1,12 @@
 .intro__title {
   margin: 0;
   margin-bottom: 40px;
-  max-width: 100%;
-  min-height: 58px;
+  max-width: 100%;  
   text-align: start;
-  font-family: "Inter";
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
+  color: #fff
+  ;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;

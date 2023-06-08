@@ -1,10 +1,8 @@
 .header__lang-links {
-  width: 30px;
-  height: 28px;
+  max-width: 30px;
 }
 @media screen and (max-width: 320px) {
   .header__lang-links {
-    width: 22px;
-    height: 20px;
+    max-width: 22px;
   }
 }
