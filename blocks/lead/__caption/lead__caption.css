@@ -1,14 +1,14 @@
 .lead__caption {
-  min-width: 158px;  
+  min-width: 158px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   margin: auto auto 0 0;
-  letter-spacing: 1.5px;  
+  letter-spacing: 1.5px;
 }
 @media screen and (max-width: 768px) {
   .lead__caption {
