@@ -11,16 +11,17 @@
   padding: 0;
   display: flex;
   align-items: end;
+  word-break: break-word;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 451px) and (max-width: 768px) {
   .place__title {
-    width: 340px;
+    width: 330px;
     font-size: 42px;
     line-height: 48px;
     align-items: start;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
   .place__title {
     width: 100%;
     font-size: 32px;

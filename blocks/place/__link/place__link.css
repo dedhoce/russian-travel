@@ -12,6 +12,7 @@
   padding: 0;
   opacity: 1;
   transition: opacity 0.5s ease;
+  word-break: break-all;
 }
 .place__link:hover {
   opacity: 0.8;

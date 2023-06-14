@@ -7,8 +7,9 @@
   list-style-type: none;
   gap: 18px;
   align-items: start;
+  flex-wrap: wrap;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .footer__list-links {
     gap: 19px;
   }

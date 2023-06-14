@@ -12,12 +12,12 @@
     max-width: 100vw;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 451px) and (max-width: 768px) {
   .cover {
     margin-bottom: 86px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
   .cover {
     margin-bottom: 64px;
   }
