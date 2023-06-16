@@ -9,6 +9,8 @@
   flex-direction: column;
   gap: 32px;
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 .cover__link:before {
   content: "";

@@ -3,7 +3,7 @@
   margin-bottom: 40px;
   max-width: 100%;
   text-align: start;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   color: #fff;
   font-weight: 900;
@@ -11,7 +11,13 @@
   line-height: 58px;
   word-break: break-all;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__title {
+    margin-bottom: 39px;
+  }
+}
+
+@media screen and (min-width: 270px) and (max-width: 767px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;

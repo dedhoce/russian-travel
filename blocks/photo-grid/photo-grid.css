@@ -7,16 +7,16 @@
   grid-template-rows: repeat(3, 32%);
   gap: 15px 16px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid {
     max-width: 91vw;
     gap: 14px 18px;
     grid-template-columns: repeat(3, 32%);
     grid-template-rows: repeat(4, 24%);
-    margin-bottom: 96px;
+    margin-bottom: 100px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
     max-width: 94vw;
     gap: 15px;
@@ -27,7 +27,7 @@
     margin-right: 24px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 270px) and (max-width: 767px) {
   .photo-grid {
     gap: 12px;
     grid-template-columns: 100%;
