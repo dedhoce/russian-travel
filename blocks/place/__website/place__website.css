@@ -7,7 +7,7 @@
   max-width: fit-content;
   justify-content: end;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__website {
     gap: 8px;
   }
@@ -22,7 +22,6 @@
   .place__website {
     grid-column: 1/2;
     grid-row: 2/3;
-    margin-left: 16px;
-    gap: 10px;
+    margin-left: 16px;    
   }
 }

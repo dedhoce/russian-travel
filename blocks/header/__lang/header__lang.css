@@ -7,8 +7,4 @@
   align-items: end;
   padding-bottom: 7px;
 }
-@media screen and (max-width: 320px) {
-  .header__lang {
-    padding-bottom: 7px;
-  }
-}
+
